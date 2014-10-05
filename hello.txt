@@ -1,4 +1,5 @@
-﻿git init => create git project
+﻿[LOCAL]
+git init => create git project
 git status  => check status
 git add README.txt = > add file to git
 git commit -m "Ceated Project" = commit + comment
@@ -6,7 +7,7 @@ git config =>
 git config user.name "surasak s"
 git config user.email "cybergigz@gmail.com"
 git config --global user.name "surasak s"
-git config list
+git config --list
 git commit -a -m =>
 git log =>
 git log -2
@@ -49,6 +50,12 @@ git add -A => add file to list for commit (recommand add by feature not add by f
 git merge develop
 git push origin master
 git push origin develop
+git commit --amend -a -m "Update Message"
+
+[OPTIONAL]
+git branch -D deleteme	delete repo
+git remote prune deleteme	delete local
+git push origin :deleteme	delete all	
 
 
 

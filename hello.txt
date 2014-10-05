@@ -1,0 +1,39 @@
+﻿git init => create git project
+git status  => check status
+git add README.txt = > add file to git
+git commit -m "Ceated Project" = commit + comment
+git config =>
+git config user.name "surasak s"
+git config user.email "cybergigz@gmail.com"
+git config --global user.name "surasak s"
+git config list
+git commit -a -m =>
+git log =>
+git log -2
+git log -1
+git log -d -1
+git log -t -1
+git log -D -1
+git log -v -1
+git checkout master
+git show -2
+
+
+ssh-keygen -t rsa
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAB4BW5E1Z+yGYO4cWvVvfR9FEv1Q8z9DUEyrbw9jY
+EFrPoi7rugWsuNleQrFQWZnHKdBMiAme/CLpVshAgo7tmJJaO/g5n2Jqd+S3oRVp8C00jrVd781t+39C
+INmz/oU/NB8HbYhFwX7dzl8OgwuBUCXpCEbt0hDu1gUuEOTabuKsFZbELkVXCGdlaBDngUx3/7R0UFvQ
+oagazKm8w9NaHGqdT0sYjqkrH2JSe4qlUgbEpwbdbinwNexLywtKS4S2FtqSs8ZSjHJ71Rfi6c7kYTiJ
++xp9wXDLqrKJM9a/EfVqG6IttdRtLTyB3Sq7aPrkklMNKi4HKoZ7RbBvQm3F plus@BISA
+
+
+
+
+git remote add git@github.com:cybergigz/traingit.git
+git remote set-url origin git@github.com:cybergigz/traingit.git
+ssh-keygen -t rsa
+git remote -v
+git push -u origin master
+
+

@@ -28,12 +28,28 @@ oagazKm8w9NaHGqdT0sYjqkrH2JSe4qlUgbEpwbdbinwNexLywtKS4S2FtqSs8ZSjHJ71Rfi6c7kYTiJ
 +xp9wXDLqrKJM9a/EfVqG6IttdRtLTyB3Sq7aPrkklMNKi4HKoZ7RbBvQm3F plus@BISA
 
 
-
-
+===========
+create on github
+===========
 git remote add git@github.com:cybergigz/traingit.git
 git remote set-url origin git@github.com:cybergigz/traingit.git
 ssh-keygen -t rsa
 git remote -v
 git push -u origin master
+
+=====================
+create branch and push to github
+=====================
+git branch develop
+git branch
+git branck -a
+git chekcout develop
+.gitignore
+git add -A => add file to list for commit (recommand add by feature not add by file or file(s))
+git merge develop
+git push origin master
+git push origin develop
+
+
 
 
